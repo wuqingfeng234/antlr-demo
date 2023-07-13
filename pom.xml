@@ -11,6 +11,7 @@
     <modules>
         <module>hello-antlr</module>
         <module>antlr-expression</module>
+        <module>simple-sql</module>
     </modules>
 
     <dependencyManagement>
