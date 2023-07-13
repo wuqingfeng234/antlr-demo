@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hello-antlr</module>
-        <module>antlr-expression</module>
+        <module>calculator</module>
         <module>simple-sql</module>
     </modules>
 
