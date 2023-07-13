@@ -1,5 +1,5 @@
 // Generated from D:/code/antlr-demo/antlr-sql/src/main/resources\SqlBase.g4 by ANTLR 4.12.0
- package com.git.wuqf.antlr.sql.base;
+ package com.git.wuqf.antlr.sql.parser;
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;

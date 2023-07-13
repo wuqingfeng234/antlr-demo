@@ -1,13 +1,10 @@
 // Generated from D:/code/antlr-demo/antlr-sql/src/main/resources\SqlBase.g4 by ANTLR 4.12.0
- package com.git.wuqf.antlr.sql.base;
+ package com.git.wuqf.antlr.sql.parser;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
-import org.antlr.v4.runtime.Token;
-import org.antlr.v4.runtime.TokenStream;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
-import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue"})
 public class SqlBaseLexer extends Lexer {

@@ -2,7 +2,7 @@
 grammar Expression;
 @header {
 // 定义package
-package pcom.git.wuqf.expression;
+package com.git.wuqf.calculator;
 }
 
 /**

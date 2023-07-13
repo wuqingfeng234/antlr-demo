@@ -1,6 +1,6 @@
 grammar SqlBase;
 
-@header { package com.git.wuqf.antlr.sql.base; }
+@header { package com.git.wuqf.antlr.sql.parser; }
 
 singleStatement : statement EOF ;
 

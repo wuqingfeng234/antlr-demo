@@ -11,7 +11,8 @@
     <modules>
         <module>hello-antlr</module>
         <module>calculator</module>
-        <module>simple-sql</module>
+        <module>simple-sql-parser</module>
+        <module>mysql-parser</module>
     </modules>
 
     <dependencyManagement>
@@ -20,6 +21,18 @@
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-runtime</artifactId>
                 <version>4.11.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.9.2</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-params</artifactId>
+                <version>5.9.2</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,4 +1,4 @@
-package com.git.wuqf.antlr.sql.base;
+package com.git.wuqf.antlr.sql.parser;
 
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
@@ -18,7 +18,7 @@ public class SqlGrammaParseTest {
         CommonTokenStream tokens1 = new CommonTokenStream(lexer1);
         SqlBaseParser parser1 = new SqlBaseParser(tokens1);
         parser1.getInterpreter().setPredictionMode(PredictionMode.SLL);
-        parser1.removeErrorListeners(); // 移除所有错误的监听
+        parser1.removeErrorListeners(); //移除所有错误的监听
         // parser1.addErrorListener();
 
         ParseTree tree = null;
