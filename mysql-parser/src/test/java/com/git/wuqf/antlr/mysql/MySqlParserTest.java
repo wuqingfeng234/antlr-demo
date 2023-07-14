@@ -14,7 +14,8 @@ import java.util.List;
 public class MySqlParserTest {
     @Test
     void testPrintSyntaxTree() {
-        String sql = "SELECT t1.column1,t1.column2,t1.column3,t2.xy from tableC t1 left join tableA t2 on t1.id=t2.oid where t1.column1 = 1 and t2.yy=6";
+//        String sql = "SELECT t1.column1,t1.column2,t1.column3,t2.xy from tableC t1 left join tableA t2 on t1.id=t2.oid where t1.column1 = 1 and t2.yy=6";
+        String sql = "SELECT * from user";
         //词法分析器
         MySqlLexer mySqlLexer = new MySqlLexer(CharStreams.fromString(sql.toUpperCase()));
         //词法符号的缓冲区,用于存储词法分析器生成的词法符号
